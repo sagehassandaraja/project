@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\knowledgeBase\\ASP.NET Core web Api,EFW Core N Angular\\project\\datingApp.api\\DatingApp.API.csproj": {}
+    "f:\\knowledgeBase\\ASP.NET Core web Api,EFW Core N Angular\\project\\DatingApp.API\\DatingApp.API.csproj": {}
   },
   "projects": {
-    "F:\\knowledgeBase\\ASP.NET Core web Api,EFW Core N Angular\\project\\datingApp.api\\DatingApp.API.csproj": {
+    "f:\\knowledgeBase\\ASP.NET Core web Api,EFW Core N Angular\\project\\DatingApp.API\\DatingApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\knowledgeBase\\ASP.NET Core web Api,EFW Core N Angular\\project\\datingApp.api\\DatingApp.API.csproj",
+        "projectUniqueName": "f:\\knowledgeBase\\ASP.NET Core web Api,EFW Core N Angular\\project\\DatingApp.API\\DatingApp.API.csproj",
         "projectName": "DatingApp.API",
-        "projectPath": "F:\\knowledgeBase\\ASP.NET Core web Api,EFW Core N Angular\\project\\datingApp.api\\DatingApp.API.csproj",
+        "projectPath": "f:\\knowledgeBase\\ASP.NET Core web Api,EFW Core N Angular\\project\\DatingApp.API\\DatingApp.API.csproj",
         "packagesPath": "C:\\Users\\sage hassan\\.nuget\\packages\\",
-        "outputPath": "F:\\knowledgeBase\\ASP.NET Core web Api,EFW Core N Angular\\project\\datingApp.api\\obj\\",
+        "outputPath": "f:\\knowledgeBase\\ASP.NET Core web Api,EFW Core N Angular\\project\\DatingApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sage hassan\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -36,6 +36,10 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.0.0, )"
@@ -47,6 +51,14 @@
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[3.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
